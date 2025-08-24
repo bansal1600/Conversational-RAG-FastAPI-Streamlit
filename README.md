@@ -2,6 +2,9 @@
 
 A production-ready Retrieval-Augmented Generation (RAG) system built with FastAPI and Streamlit, featuring session-based document isolation, Redis caching, and comprehensive logging.
 
+<img width="1114" height="588" alt="image" src="https://github.com/user-attachments/assets/0d5d681b-c533-49da-821f-e4fc6b047941" />
+
+
 ## Features
 
 - **Session-based Document Isolation** - Each user session maintains separate document collections
