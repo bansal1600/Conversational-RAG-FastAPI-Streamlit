@@ -1,20 +1,20 @@
-# 🤖 Conversational RAG with FastAPI & Streamlit
+# Conversational RAG with FastAPI & Streamlit
 
 A production-ready Retrieval-Augmented Generation (RAG) system built with FastAPI and Streamlit, featuring session-based document isolation, Redis caching, and comprehensive logging.
 
-## ✨ Features
+## Features
 
-- **🔒 Session-based Document Isolation** - Each user session maintains separate document collections
-- **⚡ FastAPI Backend** - High-performance REST API with automatic documentation
-- **🎨 Streamlit Frontend** - Interactive web interface for document upload and chat
-- **📚 Multi-format Document Support** - PDF, DOCX, TXT files
-- **🧠 Intelligent Caching** - Redis-based semantic caching for improved performance
-- **📊 Vector Database** - ChromaDB for efficient document retrieval
-- **🔍 Conversational Memory** - Context-aware chat with conversation history
-- **📝 Comprehensive Logging** - Structured logging with performance monitoring
-- **🧪 Test Coverage** - Unit and integration tests included
+- **Session-based Document Isolation** - Each user session maintains separate document collections
+- **FastAPI Backend** - High-performance REST API with automatic documentation
+- **Streamlit Frontend** - Interactive web interface for document upload and chat
+- **Multi-format Document Support** - PDF, DOCX, TXT files
+- **Intelligent Caching** - Redis-based semantic caching for improved performance
+- **Vector Database** - ChromaDB for efficient document retrieval
+- **Conversational Memory** - Context-aware chat with conversation history
+- **Comprehensive Logging** - Structured logging with performance monitoring
+- **Test Coverage** - Unit and integration tests included
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -28,7 +28,7 @@ A production-ready Retrieval-Augmented Generation (RAG) system built with FastAP
                        └─────────────────┘
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -74,7 +74,7 @@ A production-ready Retrieval-Augmented Generation (RAG) system built with FastAP
    - API Documentation: http://localhost:8000/docs
    - Streamlit UI: http://localhost:8501
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── src/
@@ -92,7 +92,7 @@ A production-ready Retrieval-Augmented Generation (RAG) system built with FastAP
 └── README.md              # This file
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -119,7 +119,7 @@ The application automatically creates SQLite tables on startup. To reset the dat
 python scripts/reset_database.py
 ```
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Document Management
 - `POST /upload-doc` - Upload and index documents
@@ -134,7 +134,7 @@ python scripts/reset_database.py
 - `GET /health` - Health check endpoint
 - `GET /docs` - Interactive API documentation
 
-## 🎯 Usage Examples
+## Usage Examples
 
 ### Upload a Document
 ```python
@@ -161,7 +161,7 @@ payload = {
 response = requests.post('http://localhost:8000/chat', json=payload)
 ```
 
-## 🧪 Testing
+## Testing
 
 Run the test suite:
 
@@ -173,21 +173,21 @@ python -m pytest tests/
 python -m pytest tests/ --cov=src --cov-report=html
 ```
 
-## 📊 Performance Features
+## Performance Features
 
 - **Semantic Caching**: Reduces API calls by caching similar queries
 - **Connection Pooling**: Efficient database connection management
 - **Async Processing**: Non-blocking document processing
 - **Memory Management**: Optimized vector storage and retrieval
 
-## 🔒 Security
+## Security
 
 - **API Key Protection**: Environment-based secret management
 - **Session Isolation**: User data separation
 - **Input Validation**: Pydantic model validation
 - **File Type Validation**: Secure file upload handling
 
-## 🚀 Deployment
+## Deployment
 
 The application is production-ready with:
 
@@ -204,7 +204,7 @@ The application is production-ready with:
 - **Production**: Scalable database + Redis Cluster
 - **Docker**: Containerized deployment ready
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -212,11 +212,11 @@ The application is production-ready with:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [LangChain](https://langchain.com/) for RAG framework
 - [FastAPI](https://fastapi.tiangolo.com/) for the web framework
@@ -224,10 +224,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ChromaDB](https://www.trychroma.com/) for vector storage
 - [OpenAI](https://openai.com/) for language models
 
-## 📞 Support
+## Support
 
 For support, please open an issue on GitHub or contact the maintainers.
 
 ---
 
-**Built with ❤️ for intelligent document processing**
+**Built for intelligent document processing**
